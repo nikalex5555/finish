@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  border: 2px solid darkturquoise;
+  height: 200px;
+  width: 200px;
+  background-color: dimgray;
+  border-radius: 5px;
+}
+.header{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  background-color: darkturquoise;
+  border: 2px solid darkturquoise;
+  border-radius: 5px;
+  height: 120px;
+  width: auto;
+  margin: 5px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  border: 2px solid darkturquoise;
+  border-radius: 5px;
+  height: 55px;
+  width: auto;
+  margin: 5px;
+}
+.activeH1{
+  color: red;
+}
+.inc{
+  background-color: darkturquoise;
+  display: inline-block;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+
+}
+.activeInc{
+  background-color: cadetblue;
+  display: inline-block;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
+.reset{
+  background-color: darkturquoise;
+  display: inline-block;
+  border-radius: 5px ;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+
+}
+.activeReset{
+  background-color: cadetblue;
+  display: inline-block;
+  border-radius: 5px ;
+  height: 30px;
+  width: 80px;
+
+}
