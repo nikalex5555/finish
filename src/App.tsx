@@ -19,7 +19,6 @@ function App() {
     const getDisabledReset:any=()=>{
         return count===0?true:false
     }
-
     return (
         <div className="App">
             <div className='header'><h1 className={getBtnClassH1()}>{count}</h1></div>
