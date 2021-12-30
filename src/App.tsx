@@ -3,7 +3,6 @@ import './App.css';
 
 
 function App() {
-
     let [count, setCount] = useState(0)
     const getBtnClassInc:any=()=>{
         return count===5?'activeInc':'inc'
